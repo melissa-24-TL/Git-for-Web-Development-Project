@@ -32,11 +32,17 @@ Review Questions
     14. What is the alt attribute used for? 
         to show text about the img if it doesn't load
     15. How do I reference an id?
+        #id
     16. What is the difference between a section and a div
+        A section tag is used to denote parts of a document like headers, footers, and paragraphs.  Where the div tag marks divisions in a document and group blocks of elements
     17. What is CSS used for? 
+        CSS is used to add styling to a page, color, positioning in the page.
     18. How to we select an element? Example - every h2 on the page
+        On he CSS document to edit style the h2 tag you just put h2 {} and put the styling in the brackets.  For styling with in a div for exmple you would name the class that would be put in the CSS page...ie <div class="header"> and then on the css document you would put .header {}and the styling again in he brackets
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class can be used over and over in not only 1 html document but any html document that referances the css document where an id is only able to be used once in a document.  A class can set the font for the entire document where the id would then change it for that specific section.
     20. How do we select classes in CSS?
+        in the html document you have class="" in the " is the class name or names.  In he css document it is shown by .classname {}
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
