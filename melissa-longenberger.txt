@@ -44,28 +44,61 @@ Review Questions
     20. How do we select classes in CSS?
         in the html document you have class="" in the " is the class name or names.  In he css document it is shown by .classname {}
     21. How do we select a p element with a single class of “human””?
+        <p class="human">
     22. What is a parent child selector? When would this be useful? 
+        This is when the selector includes the element of the direct child of the specific element
     23. How do you select all links within a div with the class of sidebar?
+        use the a in the css of the div class name.  Like <div class="nav"> in css  you have .nav:a
     24. What is a pseudo selector?
+        For a special state of an element
     25. What do we use the change the spacing between lines?
+        line-height: 1.5 for example
     26. What do we use to change the spacing between letters?
+        letter-spacing: 2px;
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase / text-transform: lowercase / text-transform: capitalize
     28. How do I add a 1px border around my div that is dotted and black?
+        classname {border: 1px dotted black;}
     29. How do I select everything on the page? 
+        ctrl a
     30. How do I write a comment in CSS?
+        //this will show a comment//
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm  Using this command will perminantly delete the item and will not ask any prompts to make sure you want to do that.
     34. Why should I use version control? 
+        Gives you the ability to keep track of all the revisions that are made to the document
     35. How often should I commit to github?
+        There when done working with the document or major changes have been made
     36. What is the command we would use to push our repo up to github? 
+        git push -m "add comments here"
     37. Walk me through Lambda's git flow. 
+            Fork the repo
+            Add collaborators
+            Using Terminal clone to hard drive
+            create new branch in Terminal
+            create new file in terminal as needed
+            push back to github to make sure it takes the new branch
+            add collaborators to new branch
+            create pull request
+            finsih Project and be sure to add comment that project is complete
+            add, commit, and push to origin first-lasst name back to github
+            wait for email that request has been merged.
+
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
+    1. What is the difference between an inline element and a block element
+            A block element starts a new line and typically take up the whole width (like a div) and inline stays on the same line (like a span)
     2. What happens when an element is positioned absolutely? 
+            It is possitioned closeest to the nearest element prior to it
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            Can't think of how this is done at this moment.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            <p> <div> and <nav> are block by default.  <span> and <a> are inline by default.  <img> is inline-block by default.
     5. In your own words, explain the box model. What is the fix for the box model? 
+            The box model is the invisible frame around all elements going from the middle which is the content, then padding around the text for example, then the border around that and then the margin around this.  The fix is the box sizing: border-box line in css.
 
